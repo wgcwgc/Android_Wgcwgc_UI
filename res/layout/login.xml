@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/login_textView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/login_editText01"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/login_editText01"
+        android:layout_toStartOf="@+id/login_editText01"
+        android:text="@string/login_TextView01_text"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/login_editText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/login_editText01_hint" />
+
+    <Button
+        android:id="@+id/login_button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/login_button01"
+        android:layout_alignLeft="@+id/login_button01"
+        android:layout_alignRight="@+id/login_button03"
+        android:layout_alignStart="@+id/login_button01"
+        android:layout_below="@+id/login_button01"
+        android:layout_marginTop="31dp"
+        android:text="@string/login_Button02" />
+
+    <Button
+        android:id="@+id/login_button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/login_button03"
+        android:layout_alignLeft="@+id/login_editText01"
+        android:layout_alignRight="@+id/login_button03"
+        android:layout_alignStart="@+id/login_editText01"
+        android:layout_below="@+id/login_editText01"
+        android:text="@string/login_Button01" />
+
+    <Button
+        android:id="@+id/login_button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/login_textView01"
+        android:layout_toRightOf="@+id/login_textView01"
+        android:text="@string/login_Button03" />
+
+    <Button
+        android:id="@+id/login_button04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/login_button03"
+        android:layout_alignRight="@+id/login_button03"
+        android:layout_below="@+id/login_button03"
+        android:layout_marginTop="25dp"
+        android:text="@string/login_Button04" />
+
+    <Button
+        android:id="@+id/login_button05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/login_button04"
+        android:layout_alignStart="@+id/login_button04"
+        android:layout_below="@+id/login_button04"
+        android:layout_marginTop="34dp"
+        android:text="@string/login_Button05" />
+
+</RelativeLayout>
